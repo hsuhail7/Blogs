@@ -8,6 +8,23 @@ tags: learning, automation, learning-journey, shell-script, 90daysofdevops
 
 ---
 
+**Table of Contents:**
+
+1. Introduction
+    
+2. Understanding Shell Scripting
+    
+3. The Importance of Shell Scripting in DevOps
+    
+    * Automation **🤖**
+        
+    * Interactivity **🤝**
+        
+    * Efficiency**💪**
+        
+4. Example: Basic shell script for user creation
+    
+
 **Introduction**
 
 In the world of DevOps, automation plays a pivotal role in driving efficiency, reliability, and speed in software development and IT operations. One of the cornerstones of automation in the DevOps world is "Shell Scripting." This is why it holds immense importance in DevOps practices as helps teams to achieve automation.🔧
