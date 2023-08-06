@@ -1,8 +1,8 @@
 ---
-title: "Empowering DevOps with Shell Scripting"
+title: "Crucial Role of Shell Scripting in DevOps"
 datePublished: Fri Jul 28 2023 15:22:43 GMT+0000 (Coordinated Universal Time)
 cuid: clkzlhtlk000u0al1cpvy2xg2
-slug: empowering-devops-with-shell-scripting
+slug: crucial-role-of-shell-scripting-in-devops
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691335172228/a82d14fe-b083-413d-a2c0-8cc2b8993172.jpeg
 tags: learning, automation, learning-journey, shell-script, 90daysofdevops
 
