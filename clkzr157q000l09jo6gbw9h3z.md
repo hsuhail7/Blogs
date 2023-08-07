@@ -43,6 +43,8 @@ elif [ $num1 -gt $num2 ]; then
 else
     echo "Second Number ($num2) is greater than First Number ($num1)."
 fi
+
+echo "I will complete #90DaysOofDevOps challenge"
 ```
 
 **How to Execute the Script?**
