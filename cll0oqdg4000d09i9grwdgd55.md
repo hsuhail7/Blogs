@@ -26,6 +26,8 @@ Policy-based Administration
     
 * Replication: AD is replicated to multiple servers(Domain Controllers only) in the network, which ensures that the directory is always available.
     
+* Policy-based administration: Group Policies are configuration settings applied to computers or users as they are initialized. Group Policy settings are applied to Active Directory sites, domains, or organizational units. GPO settings determine access to directory objects and domain resources, what domain resources are available to users, and how these domain resources are configured for use.
+    
 * Namespace: AD provides a hierarchical namespace for organizing resources in the network.
     
 
