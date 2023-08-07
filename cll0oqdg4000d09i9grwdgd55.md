@@ -10,22 +10,13 @@ tags: windows, infrastructure, it, active-directory
 
 **Active Directory**
 
-Active Directory (AD) is a Directory Service developed by Microsoft. It is used to store information about users, computers, and other resources in a network.
+Active Directory (AD) is a Directory Service developed by Microsoft. It is used to store information about users, computers, and other resources in a network. In any Active Directory, we can easily use these features like
 
-It provides us with the following features:
+Authentication and Authorization
 
-* A distributed database 
-    
-* Authentication and Authorization
-    
-* Single-sign on
-    
-* Policy-based Administration
-    
-* Scalability
-    
-* Replication
-    
+Single-sign on
+
+Policy-based Administration
 
 **Benefits of using Active Directory Domain Services**
 
