@@ -82,7 +82,9 @@ r--: For Others we have Read Permission only.
 
 ### Managing Extended File Access Control Lists
 
-In Linux, an access control list (ACL) constitutes a list of permissions linked to an entity. These lists prove invaluable when conventional file permission frameworks fall short. ACLs empower you to allocate permissions to specific users or groups, irrespective of their alignment with the entity's proprietor or group.
+Standard file permissions work well for files that are used by a single owner and a specific group. However, there are times when you want to grant access to a user or group that isn't covered by the default permissions. This is where access control lists (ACLs) come into play.
+
+With ACLs, you have the ability to grant permissions to multiple users and groups. You can identify these users and groups by their names or unique identifiers, such as the user ID (UID) or group ID (GID). The permissions you grant align with the familiar read, write, and execute flags that you encounter in standard file permissions. ACLs provide a flexible way to fine-tune access control beyond the limitations of traditional permissions.
 
 These are the two commands `getfacl` and `setfacl` in Linux, which is used for managing extended file access control lists (ACLs).
 
@@ -143,15 +145,15 @@ user::rw-
 group::rw-
 other::r--
 
-ubuntu@ip-172-31-91-127:~/Test_Op$ setfacl -m u:ubuntu:rwx dev.txt
-ubuntu@ip-172-31-91-127:~/Test_Op$ getfacl dev.txt
+ubuntu@ip-172-31-91-127:~/Test_Op$  setfacl -m u:Zuha:rw dev.txt
+ubuntu@ip-172-31-91-127:~/Test_Op$ getgetfacl dev.txt
 # file: dev.txt
 # owner: ubuntu
 # group: ubuntu
 user::rw-
-user:ubuntu:rwx  [Modified for user ubuntu]
+user:Zuha:rw-        [Added user Zuha and gave Read and Write Permission]
 group::rw-
-mask::rwx
+mask::rw-
 other::r--
 ```
 
