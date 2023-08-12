@@ -130,6 +130,10 @@ No VM guests are running outdated hypervisor (qemu) binaries on this host.
 
 Now you will be able to run getfacl and setfacl for the files.
 
+`getfacl` command allows you to retrieve the extended ACL information for a file or directory.
+
+`setfacl` command enables you to set or modify extended ACLs for files and directories.
+
 ```plaintext
 ubuntu@ip-172-31-91-127:~/Test_Op$ getfacl dev.txt
 # file: dev.txt
@@ -137,6 +141,17 @@ ubuntu@ip-172-31-91-127:~/Test_Op$ getfacl dev.txt
 # group: ubuntu
 user::rw-
 group::rw-
+other::r--
+
+ubuntu@ip-172-31-91-127:~/Test_Op$ setfacl -m u:ubuntu:rwx dev.txt
+ubuntu@ip-172-31-91-127:~/Test_Op$ getfacl dev.txt
+# file: dev.txt
+# owner: ubuntu
+# group: ubuntu
+user::rw-
+user:ubuntu:rwx  [Modified for user ubuntu]
+group::rw-
+mask::rwx
 other::r--
 ```
 
